@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#2555"
+            android:padding="10dp"
+            android:text="المسلسل"
+            android:textAlignment="center"
+            android:textColor="#007"
+            android:textSize="@dimen/textsize_m"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#555" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#2555"
+            android:padding="10dp"
+            android:text="الاسم"
+            android:textAlignment="center"
+            android:textColor="#007"
+            android:textSize="@dimen/textsize_m"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#555" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="#2555"
+            android:padding="10dp"
+            android:text="الحاله"
+            android:textAlignment="center"
+            android:textColor="#007"
+            android:textSize="@dimen/textsize_m"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/vvv"
+        android:layout_below="@+id/linear2"
+        android:background="#555" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/vvv"
+        android:id="@+id/reportRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

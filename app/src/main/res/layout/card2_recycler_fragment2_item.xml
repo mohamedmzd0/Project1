@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear"
+    android:weightSum="8"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="#F00"
+        android:layout_margin="10dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="المشروع"
+        android:textSize="@dimen/textsize_s"
+        android:id="@+id/text1"
+        android:layout_weight="4"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="الربح"
+        android:textSize="@dimen/textsize_s"
+        android:id="@+id/text2"
+        android:layout_weight="2"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="النسبه"
+        android:layout_weight="2"
+        android:textSize="@dimen/textsize_s"
+        android:id="@+id/text3"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="ايرادات الشهر"
+
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="مصروفات الشهر"
+
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#f00"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="ارباح الشهر"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#0a0"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="الايرادات تراكمى"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="المصروفات تراكمى"
+
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#f00"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_gird_item"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingTop="5dp"
+                    android:text="الارباح تراكمى"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#0a0"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:text="جميع المقاولات"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="المستخدمين"
+                    android:textColor="#333"
+                    android:textSize="@dimen/textsize_m"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/card_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="10dp"
+                    android:text="0"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_l" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/manuser"
+                    android:layout_marginRight="10dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="الشركات"
+                    android:textAlignment="center"
+                    android:textColor="#333"
+                    android:textSize="@dimen/textsize_m"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/card_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text11"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="10dp"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_l" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/temple"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="10dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="المشاريع"
+                    android:textAlignment="center"
+                    android:textColor="#333"
+                    android:textSize="@dimen/textsize_m"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/card_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text12"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="10dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_l" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/settings"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="10dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:text="المستخدمين"
+                    android:textAlignment="center"
+                    android:textColor="#333"
+                    android:textSize="@dimen/textsize_m"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/card_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text13"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="10dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize_l" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/multipleusers"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

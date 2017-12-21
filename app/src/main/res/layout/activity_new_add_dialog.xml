@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.mohamedabdelaziz.project1.SecondFragment.Model.NewAddDialog">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/newWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخال عامل جديد"
+            android:textColor="#000"
+            android:background="#0fff"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_l"
+            android:textStyle="bold" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/newProject"
+            android:background="#0fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخال مشروع جديد"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_l"
+            android:textStyle="bold" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:background="#0fff"
+            android:id="@+id/newCompany"
+            android:layout_width="240dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="ادخال شركه جديده"
+            android:textColor="#000"
+            android:textSize="@dimen/textsize_l"
+            android:textStyle="bold" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">مقاولون للتطوير العقارى</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_text_hint">الاسم</string>
+    <string name="password_text_hint">الرقم السري</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="login_message">تسجيل الدخول</string>
+    <string name="title_activity_home">Home</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="loginFailedMessage">Login Failed Check Your Username or Password</string>
+    <string name="username_required">Username required</string>
+    <string name="password_required">Password required</string>
+    <string name="title1">الشركات الاكثر ربحا</string>
+    <string name="title2">المشاريع الاكثر ربحاً</string>
+    <string name="title3">مصاريف اداريه</string>
+    <string name="title_activity_report">ReportActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_report2">ReportActivity2</string>
+    <string name="required">مطلوب</string>
+    <string name="error">غير صحيح</string>
+</resources>

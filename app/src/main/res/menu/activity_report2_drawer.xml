@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="تقارير شركات" />
+        <item
+            android:id="@+id/item5"
+            android:title="تقرير الدخلات" />
+
+        <item
+            android:id="@+id/item7"
+            android:title="تقارير ارباح" />
+    </group>
+
+
+</menu>

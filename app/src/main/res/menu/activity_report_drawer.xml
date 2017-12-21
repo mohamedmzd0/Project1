@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="تقارير شركات" />
+        <item
+            android:id="@+id/item2"
+            android:title="تقارير مشاريع" />
+        <item
+            android:id="@+id/item3"
+            android:title="تقارير افراد" />
+        <item
+            android:id="@+id/item4"
+            android:title="حاله افراد" />
+
+        <item
+            android:id="@+id/item5"
+            android:title="تقرير الدخلات" />
+        <item
+            android:id="@+id/item6"
+            android:title="تقرير مدخلات العمال" />
+        <item
+            android:id="@+id/item7"
+            android:title="تقارير ارباح" />
+    </group>
+
+
+</menu>

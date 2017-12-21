@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:title="اضافة" />
+
+    <item
+        android:id="@+id/detail"
+        android:icon="@drawable/details"
+        android:title="تقارير" />
+</menu>
